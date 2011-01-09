@@ -517,7 +517,7 @@ PS_SERIALIZER_DECODE_FUNC(igbinary) {
 #ifdef HAVE_APC_SUPPORT
 /* {{{ apc_serialize function */
 static int APC_SERIALIZER_NAME(igbinary) ( APC_SERIALIZER_ARGS ) {
-	if (igbinary_serialize(buf, buf_len, value) == 0) {
+	if (igbinary_serialize(buf, buf_len, value TSRMLS_CC) == 0) {
 		/* flipped semantics */
 		return 1;
 	}
@@ -527,7 +527,7 @@ static int APC_SERIALIZER_NAME(igbinary) ( APC_SERIALIZER_ARGS ) {
 
 /* {{{ apc_unserialize function */
 static int APC_UNSERIALIZER_NAME(igbinary) ( APC_UNSERIALIZER_ARGS ) {
-	if (igbinary_unserialize(buf, buf_len, value) == 0) {
+	if (igbinary_unserialize(buf, buf_len, value TSRMLS_CC) == 0) {
 		/* flipped semantics */
 		return 1;
 	}
