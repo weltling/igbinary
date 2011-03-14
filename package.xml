@@ -29,7 +29,7 @@
   <release>stable</release>
   <api>stable</api>
  </stability>
- <license uri="http://opensource.dynamoid.com/#license">PHP like license</license>
+ <license uri="http://opensource.dynamoid.com/#license">New BSD</license>
  <notes>
 - Initial PECL release
  </notes>
