@@ -268,6 +268,7 @@ PHP_MINIT_FUNCTION(igbinary) {
 #endif
 
 #if HAVE_APC_SUPPORT
+
 	apc_register_serializer("igbinary",
 		APC_SERIALIZER_NAME(igbinary),
 		APC_UNSERIALIZER_NAME(igbinary),
