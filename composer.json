@@ -1,6 +1,6 @@
 {
-    "name": "igbinary",
-    "version": "1.1.1",
+    "name": "pierrejoye/igbinary",
+    "version": "1.0.2",
     "type": "extension",
     "stability": "stable",
     "license": [
