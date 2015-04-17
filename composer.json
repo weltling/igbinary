@@ -6,6 +6,7 @@
     "license": [
         "New BSD"
     ],
+	"homepage": "https://github.com/pierrejoye/igbinary",
     "authors": [
         {
             "name": "Teddy Grenman",
