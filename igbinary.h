@@ -16,7 +16,7 @@
 #endif
 #include "php.h"
 
-#define PHP_IGBINARY_VERSION "1.0.2"
+#define PHP_IGBINARY_VERSION "1.2.2-dev"
 #define IGBINARY_VERSION PHP_IGBINARY_VERSION
 
 /** Serialize zval.
