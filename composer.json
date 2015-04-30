@@ -13,6 +13,6 @@
             "email": "teddy.pecl@luuseri.com"
         }
     ],
-    "description": "igbinary extension"
-	"keywords": {"serializer", "compression", "binary"}
+    "description": "igbinary extension",
+	"keywords":  ["serializer", "compression", "binary"]
 }
