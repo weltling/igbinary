@@ -3,12 +3,12 @@
     "version": "1.5.5",
     "type": "extension",
     "description": "igbinary extension",
-	"keywords":  ["serializer", "compression"],
+    "keywords":  ["serializer", "compression"],
     "stability": "stable",
     "license": [
         "New BSD"
     ],
-	"homepage": "https://github.com/weltling/igbinary",
+    "homepage": "https://github.com/weltling/igbinary",
     "authors": [
         {
             "name": "Teddy Grenman",
