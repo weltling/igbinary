@@ -4,7 +4,6 @@
     "type": "extension",
     "description": "igbinary extension",
     "keywords":  ["serializer", "compression"],
-    "stability": "stable",
     "license": [
         "New BSD"
     ],
